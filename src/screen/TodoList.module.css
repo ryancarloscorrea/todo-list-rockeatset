@@ -1,0 +1,4 @@
+.bodyApp {
+    display: flex;
+    flex-direction: column;
+}

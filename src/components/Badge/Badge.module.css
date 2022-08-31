@@ -1,0 +1,15 @@
+.badge {
+    background-color: var(--gray-400);
+    border-radius: 9999999px;
+    min-width: 22px;
+    text-align: center;
+    margin-left: 0.5rem;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+}
+.badge text {
+    color: var(--gray-200);
+    font-weight: bold;
+    font-size: 12px;
+}

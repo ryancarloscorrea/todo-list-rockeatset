@@ -1,0 +1,32 @@
+.containerList {
+    margin-top: 1.5rem;
+}
+
+.containerEmptyList {
+    width: 100%;
+    padding: 4rem 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-color: var(--gray-300);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerEmptyList div {
+    display: flex;
+    flex-direction: column;
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
+
+.containerEmptyList div text:first-child {
+    font-weight: bold;
+}

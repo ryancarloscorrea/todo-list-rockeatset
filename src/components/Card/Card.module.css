@@ -1,0 +1,44 @@
+.card {
+    background-color: var(--gray-500);
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    width: 756px;
+    border-radius: 0.5rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card div {
+    cursor: pointer;
+}
+
+
+.radioButtonUnselected {
+    margin-right: 12px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid var(--blue);
+    border-radius: 0.75rem;
+}
+
+.radioButtonSelected {
+    margin-right: 12px;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--purple-dark);
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.textDescriptionTask {
+    color: var(--gray-100);
+    text-align: center;
+}
+
+.textDescriptionTaskCompleted {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}

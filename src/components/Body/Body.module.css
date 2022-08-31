@@ -1,0 +1,96 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 756px;
+    flex-direction: column;
+    align-self: center;
+}
+
+.containerInputButton {
+    margin-top: -27px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.input {
+    height: 3.25rem;
+    background-color: var(--gray-500);
+    border-radius: 0.5rem;
+    border: 1px solid var(--gray-700);
+    outline: none;
+    padding-left: 0.75rem;
+    flex: 1;
+    color: var(--gray-200);
+
+}
+
+::placeholder {
+    padding-left: 0.25rem;
+}
+
+.button {
+    background-color: var(--blue-dark);
+    height: 3.25rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    margin-left: 0.5rem;
+    cursor: pointer;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img {
+    margin-left: 0.5rem;
+}
+
+.textButton {
+    color: var(--gray-100);
+}
+
+.textTaskCreated {
+    color: var(--blue);
+}
+
+.textCompleted {
+    color: var(--purple)
+}
+
+.badge {
+    background-color: var(--gray-400);
+    border-radius: 9999999px;
+    min-width: 1.5rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.badge text {
+    color: var(--gray-200);
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.containerHeaderList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerHeaderList text{
+    font-weight: bold;
+}
+
+.containerTitleBadge {
+    display: flex;
+}
+
+.containerList {
+    margin-top: 4rem;
+    width: 100%;
+}
